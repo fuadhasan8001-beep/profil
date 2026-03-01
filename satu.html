@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kantin Sehat & Enak</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #2E7D32;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #4CAF50;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .menu-section {
+            margin-bottom: 30px;
+        }
+        .menu-section h2 {
+            color: #2E7D32;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .menu-item {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+        .menu-item img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .menu-info h3 {
+            color: #333;
+            margin-bottom: 5px;
+        }
+        .harga {
+            color: #2E7D32;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        footer {
+            background-color: #2E7D32;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kantin Sehat & Enak</h1>
+        <p>Tempat Makan Favorit dengan Menu Segar dan Harga Terjangkau!</p>
+    </header>
+
+    <nav>
+        <a href="#menu">Menu Makanan</a>
+        <a href="#minuman">Menu Minuman</a>
+        <a href="#jam">Jam Operasional</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+
+    <div class="container">
+        <section id="menu" class="menu-section">
+            <h2>Menu Makanan</h2>
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/100" alt="Nasi Goreng Kampung">
+                <div class="menu-info">
+                    <h3>Nasi Goreng Kampung</h3>
+                    <p>Nasi goreng dengan bumbu khas, ditambah telur mata sapi dan kerupuk</p>
+                    <p class="harga">Rp 15.000</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/100" alt="Soto Ayam Madura">
+                <div class="menu-info">
+                    <h3>Soto Ayam Madura</h3>
+                    <p>Soto dengan daging ayam empuk, lontong, dan bumbu kacang khas</p>
+                    <p class="harga">Rp 18.000</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/100" alt="Ayam Penyet">
+                <div class="menu-info">
+                    <h3>Ayam Penyet</h3>
+                    <p>Ayam goreng crispy yang dijejer, dengan sambal matah dan lalapan</p>
+                    <p class="harga">Rp 20.000</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="minuman" class="menu-section">
+            <h2>Menu Minuman</h2>
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/100" alt="Es Teh Manis">
+                <div class="menu-info">
+                    <h3>Es Teh Manis</h3>
+                    <p>Teh hitam segar dengan gula merah, disajikan dengan es batu</p>
+                    <p class="harga">Rp 5.000</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/100" alt="Es Jeruk Nipis">
+                <div class="menu-info">
+                    <h3>Es Jeruk Nipis</h3>
+                    <p>Jeruk nipis segar diperas langsung, dengan tambahan gula dan es</p>
+                    <p class="harga">Rp 7.000</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/100" alt="Susu Jahe Hangat">
+                <div class="menu-info">
+                    <h3>Susu Jahe Hangat</h3>
+                    <p>Susu murni dengan jahe yang menghangatkan badan</p>
+                    <p class="harga">Rp 10.000</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="jam" class="menu-section">
+            <h2>Jam Operasional</h2>
+            <p><strong>Hari Senin - Jumat:</strong> 06.30 WIB - 15.00 WIB</p>
+            <p><strong>Hari Sabtu:</strong> 07.00 WIB - 13.00 WIB</p>
+            <p><strong>Hari Minggu & Hari Libur Nasional:</strong> Tutup</p>
+        </section>
+
+        <section id="kontak" class="menu-section">
+            <h2>Kontak Kami</h2>
+            <p><strong>Alamat:</strong> Jl. Pendidikan No. 123, Trenggalek</p>
+            <p><strong>Telepon:</strong> (0354) 123456</p>
+            <p><strong>WA:</strong> 0812-3456-7890</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Kantin Sehat & Enak - Semua Hak Dilindungi</p>
+    </footer>
+</body>
+</html>
